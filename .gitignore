@@ -1,0 +1,5 @@
+/.prefectignore
+/.idea/
+__pycache__
+/prefect-env
+/prefect-env/
