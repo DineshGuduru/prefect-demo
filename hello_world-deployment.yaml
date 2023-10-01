@@ -31,8 +31,17 @@ infrastructure:
   _is_anonymous: true
   block_type_slug: process
   _block_type_slug: process
-storage: null
-path: /Users/dineshvarmaguduru/IdeaProjects/prefect-demo
+storage:
+  repository: https://github.com/DineshGuduru/prefect-demo.git
+  reference: null
+  access_token: '**********'
+  include_git_objects: true
+  _block_document_id: 24bbc166-55ba-4bcb-a037-06727f8a732c
+  _block_document_name: prefect-repo
+  _is_anonymous: false
+  block_type_slug: github
+  _block_type_slug: github
+path: ''
 entrypoint: hello.py:hello_world
 parameter_openapi_schema:
   title: Parameters
@@ -40,6 +49,6 @@ parameter_openapi_schema:
   properties: {}
   required: null
   definitions: null
-timestamp: '2023-10-01T04:59:54.272681+00:00'
+timestamp: '2023-10-01T05:15:10.495340+00:00'
 triggers: []
 enforce_parameter_schema: null
