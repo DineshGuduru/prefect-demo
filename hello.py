@@ -7,9 +7,15 @@ def create_message():
     msg = string_block.value
     return msg
 
+@task
+def display_github():
+    msg = "I am from github"
+    return msg
+
 @flow
 def something_else():
     result = 10
+    print(display_github())
     return result
 
 @flow
