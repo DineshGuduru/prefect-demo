@@ -1,9 +1,9 @@
 ###
 ### A complete description of a Prefect Deployment for flow 'hello-world'
 ###
-name: demo_deployment
+name: demo-github-deployment
 description: null
-version: ca4d8246e4185db322dab03b03103aba
+version: 95977495771c4d790f405f00cf2149a7
 # The work queue that will handle this deployment's runs
 work_queue_name: default
 work_pool_name: default-agent-pool
@@ -26,8 +26,8 @@ infrastructure:
   command: null
   stream_output: true
   working_dir: null
-  _block_document_id: a066d62e-2bbd-4468-82ba-4182115494af
-  _block_document_name: anonymous-e7e446ec-d633-4bb8-94b0-442ce26e510d
+  _block_document_id: 1ef10df9-2514-46f9-9151-299b900498f5
+  _block_document_name: anonymous-68dad025-5e40-487a-bfba-176206fb4f7f
   _is_anonymous: true
   block_type_slug: process
   _block_type_slug: process
@@ -36,19 +36,19 @@ storage:
   reference: null
   access_token: '**********'
   include_git_objects: true
-  _block_document_id: 24bbc166-55ba-4bcb-a037-06727f8a732c
+  _block_document_id: 9ffcc4e0-fb02-42c1-a2cc-ee8e284d77dc
   _block_document_name: prefect-repo
   _is_anonymous: false
   block_type_slug: github
   _block_type_slug: github
 path: ''
-entrypoint: hello.py:hello_world
+entrypoint: hello_world.py:hello_world
 parameter_openapi_schema:
   title: Parameters
   type: object
   properties: {}
   required: null
   definitions: null
-timestamp: '2023-10-01T05:15:10.495340+00:00'
+timestamp: '2023-10-08T07:17:31.704815+00:00'
 triggers: []
 enforce_parameter_schema: null
