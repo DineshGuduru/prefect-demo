@@ -3,7 +3,6 @@
 This is a demo repository explaining how to use prefect
 
 ###  Setting up this Repository
-Typically the steps you always takes are:
 
 ```bash
 git clone https://github.com/DineshGuduru/prefect-demo.git
